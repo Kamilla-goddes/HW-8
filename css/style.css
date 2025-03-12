@@ -70,8 +70,7 @@ li:hover {
         flex-basis: calc((100% 30px) / 2);
         outline: 1px solid red;
         border-radius: 20px;
-        box-shadow: 5px 5px
-        10px 10px gray;
+        box-shadow: 5px 5px 10px 10px gray;
         overflow: hidden;
     }
     h2:last-of-type {
@@ -82,4 +81,4 @@ li:hover {
     }
     li:first-of-type {
         font-size: 18px;
-    };
+    }
