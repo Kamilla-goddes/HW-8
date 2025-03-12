@@ -16,5 +16,70 @@ p:nth-child(8) {
     color: yellow;
 }
 
-/*/////////////////////////////////
+/*////////////////////*/
 
+.Monday {
+    background-color: #F27979;
+}
+.Tuesday {
+    background-color: #F2F2F2;
+}
+.Wednesday {
+    background-color: #8F9BBF;
+}
+.Thursday {
+    background-color: #3A4E8C;
+}
+.Friday {
+    background-color: #BF637C;
+}
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li {
+    padding: 0;
+    margin: 0;
+
+
+}
+li:hover {
+     background-color: #e3baaa;
+     } 
+     li:active {
+        font-weight: bold;
+        }
+     li:first-child { 
+        color: red;
+     }  
+     li:last-child {
+         color: blue;
+         }
+    li:nth-child(even) { 
+        background-color: #EEF1DA;
+     } 
+    
+
+     h2:first-of-type {
+         text-decoration: underline;
+         }
+        .Monday {
+        flex-basis: calc((100% 30px) / 2);
+        outline: 1px solid red;
+        border-radius: 20px;
+        box-shadow: 5px 5px
+        10px 10px gray;
+        overflow: hidden;
+    }
+    h2:last-of-type {
+        color: darkblue;
+    }
+    ul li:nth-last-child(3) {
+        font-weight: bold;
+    }
+    li:first-of-type {
+        font-size: 18px;
+    }
